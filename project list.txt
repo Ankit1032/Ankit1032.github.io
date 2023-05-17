@@ -1,0 +1,10 @@
+1. NYC Green Taxi Time Series Analysis using SQL
+2. Inventory Management Dashboard using Power BI
+3. Black Friday Sales Forecasting using ML
+4. Swiggy Analysis using SQL
+5. Grocery Retail Store Sales Forecasting using Time Series Analysis
+6. Statistical Analysis of Sales Data using Excel
+7. Maven Customer Churn Analysis using Power BI
+8. Covid Dataset EDA using SQL
+9. Forecasting_Actuals_Budget_Visualization using Power BI
+10. Sales Dashboard using Excel
