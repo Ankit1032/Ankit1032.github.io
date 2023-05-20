@@ -1,4 +1,5 @@
-window.addEventListener('DOMContentLoaded', function() {
-  var fadeElement = document.getElementById('fade-in-page');
-  fadeElement.style.opacity = 1;
+window.addEventListener('scroll', function () {
+  const parallax = document.querySelector('.parallax-image');
+  let scrollPosition = window.pageYOffset;
+  parallax.style.transform = 'translateY(' + scrollPosition * 0.4 + 'px)';
 });
