@@ -248,7 +248,7 @@ section h2 {
 }
 
 .my-header-button {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 30px;
   font-family: 'Open Sans', sans-serif;
   color: white;
