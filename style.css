@@ -196,6 +196,7 @@ section h2 {
     color: #87CEEB;
   }
 
+
 .card-img {
 	width: 200px;
 	height: 200px;
@@ -234,6 +235,7 @@ section h2 {
 	padding-right: 30px;
 	padding-bottom: 30px;
 	padding-left: 80px;
+	color:white;
 }
 
 .card-header-text{
@@ -243,13 +245,14 @@ section h2 {
 	padding-right: 30px;
 	padding-bottom: 20px;
 	padding-left: 80px;
+	color:white;
 }
 
 .my-header-button {
-  background-color: #ffffff;
+  background-color: black;
   border-radius: 30px;
   font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  color: white;
   border: 1px solid #d3d3d3; /* update border color to light grey */
   padding: 15px 35px;
   margin-top: 50px;
@@ -284,7 +287,7 @@ section h2 {
 }
 
 .profile-pic {
-	border-radius:250px !important;
+	border-radius:650px !important;
 }
 
 @media (max-width: 767px) {
@@ -377,4 +380,18 @@ section h2 {
   .card-header-text{
 	  font-size:14px;
   }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./images/header/background.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
